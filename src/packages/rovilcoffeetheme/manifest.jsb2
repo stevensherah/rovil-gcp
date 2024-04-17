@@ -1,0 +1,22 @@
+{
+	"projectName": "rovilcoffeetheme",
+	"licenseText": "proprietary",
+	"pkgs": [{
+		"name": "rovilcoffeetheme CSS",
+		"file": "rovilcoffeetheme.css",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.css",
+			"path": "themes/admin/jqadm/"
+		}]
+	}, {
+		"name": "rovilcoffeetheme JS",
+		"file": "rovilcoffeetheme.js",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.js",
+			"path": "themes/admin/jqadm/"
+		}]
+	}],
+	"resources" : []
+}
