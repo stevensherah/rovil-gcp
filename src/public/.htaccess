@@ -29,3 +29,6 @@
         Header set Cache-Control "max-age=31536000, public"
     </filesMatch>
 </IfModule>
+
+# Increase PHP memory limit
+php_value memory_limit 1G

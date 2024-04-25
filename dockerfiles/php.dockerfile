@@ -1,5 +1,9 @@
 FROM php:8-fpm-alpine
 
+
+# Set the memory limit for PHP
+RUN echo "memory_limit=1GM" > /usr/local/etc/php/conf.d/memory-limit.ini
+
 ARG UID
 ARG GID
 
